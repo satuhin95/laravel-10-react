@@ -23,7 +23,7 @@ Route::middleware('auth:sanctum')->group(function(){
         return $request->user();
     });
 
-    Route::apiResource('/users',[UserController::class])
+    Route::apiResource('/users',[UserController::class]);
 });
 
 
